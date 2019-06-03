@@ -1,1 +1,3 @@
-create table xgap_sample_table(emp_no Integer(10) , name varchar2 );
+spool c:\Users\itiwari\desktop\abc.txt
+create table xgap1(id INT PRIMARY KEY,name varchar(20));
+spool off;                                                   
