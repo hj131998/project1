@@ -1,3 +1,5 @@
-spool c:\Users\itiwari\desktop\abc.txt
-select * from Customers;
-spool off;                                                   
+  
+create table xgap_mp_test_rcpt_stg as (select * from xgap_mp_podc_headers_stg where 1=2);
+ 
+
+                                                   
